@@ -32,15 +32,4 @@ public class BubbleSort {
         }
     }
 
-    public static void main(String[] args) {
-        int[] arr = new int[]{4, 5, 6, 1, 3, 2};
-        for (int i : arr) {
-            System.out.print(i + " ");
-        }
-        sort(arr, arr.length);
-        System.out.println("\r\n");
-        for (int i : arr) {
-            System.out.print(i + " ");
-        }
-    }
 }

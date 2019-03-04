@@ -43,15 +43,4 @@ public class SelectionSort {
         }
     }
 
-    public static void main(String[] args) {
-        int[] arr = new int[]{4, 5, 6, 1, 3, 2};
-        for (int i : arr) {
-            System.out.print(i + " ");
-        }
-        System.out.println("\r\n");
-        sort(arr, arr.length);
-        for (int i : arr) {
-            System.out.print(i + " ");
-        }
-    }
 }
