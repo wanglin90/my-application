@@ -4,7 +4,7 @@ package com.wool.algorithm.sort;
  * @Author wanglin
  * @Date 2019/2/28
  * 归并排序，时间复杂度O(nlogn)
- * 核心思想是将数组分成前后两部分，然后对前后两部分分别排序，再将排序好的两个部分合并在一起
+ * 核心思想是将数组分成前后两部分，然后对前后两部分分别排序，再将排序好的两个部分合并在一起，递归这个过程。
  */
 public class MergeSort {
 
