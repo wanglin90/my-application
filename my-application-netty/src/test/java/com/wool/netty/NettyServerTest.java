@@ -7,7 +7,7 @@ package com.wool.netty;
 public class NettyServerTest {
     public static void main(String[] args) {
         NettyServer nettyServer = new NettyServer();
-        nettyServer.init(8000);
+        nettyServer.init("127.0.0.1",8000);
         nettyServer.start();
     }
 }
